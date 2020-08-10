@@ -1,0 +1,11 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Answers
+5006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:84387000; AMPATH:5006; CIEL:5006,"COVID-19-Starter, Asymptomatic",Asymptomatic,General descriptive term.  ,Misc,N/A,
+165621AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT: 1240581000000104; SNOMED UK:1240581000000104; CIEL: 165621,"COVID-19-Starter, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected",Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected,,Finding,N/A,
+,,,"COVID-19-Starter, Patient orientation completed",Patient orientation completed,,Misc,N/A,
+,,,"COVID-19-Starter, Self monitoring kit procured by patient",Self monitoring kit procured by patient,,Misc,N/A,
+,,,"COVID-19-Starter, Home isolation observations",Home isolation observations,,Question,Coded,"COVID-19-Starter, Asymptomatic; COVID-19-Starter, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected; COVID-19-Starter, Patient orientation completed; COVID-19-Starter, Self monitoring kit procured by patient"
+,,,"COVID-19-Starter, Number of days in isolation",Number of days in isolation,,Question,Numeric,
+165648AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL: 165648,"COVID-19-Starter, Date of isolation",Date of isolation,Date/time patient was isolated.,Question,DateTime,
+162079AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL: 162079,"COVID-19-Starter, Date of test result",Date of test result,"Date/time that a test result was obtained. This is not when the test was ordered, or when the result was given to the patient.",Misc,DateTime,
+,,,"COVID-19-Starter, Follow up date",Follow up date,,Question,DateTime,
+,,,"COVID-19-Starter, House suitable for home isolation",House suitable for home isolation,,Question,Boolean,
