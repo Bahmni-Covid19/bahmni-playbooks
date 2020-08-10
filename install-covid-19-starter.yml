@@ -1,0 +1,7 @@
+- name: install covid 19 starter artifacts
+  hosts: bahmni-openmrs
+  sudo: yes
+  roles:
+    - { role: covid-19-starter }
+  tags:
+    - covid-19-starter

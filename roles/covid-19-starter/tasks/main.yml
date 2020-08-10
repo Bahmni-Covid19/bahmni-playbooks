@@ -1,0 +1,20 @@
+- name: copy initial screening metadata
+  copy:
+    src: initial_screening/initial_screening_concepts.csv
+    dest: "{{ openmrs_install_dir }}/configuration/concepts/"
+    owner: root
+
+- name: copy initial screening form
+  copy:
+    src: initial_screening/initial_screening_form.json
+    dest: "{{ openmrs_install_dir }}/configuration/bahmniforms/"
+    owner: root
+
+# TODO: refactor later. avoid database conflicts
+- name: update concept sources
+  vars:
+     update_script: "{{ lookup('file', 'concept_sources_helper.sql') }}"
+  shell: echo {{ update_script | quote }} | mysql -u{{mysql_root_user}} -p{{mysql_root_password}} openmrs
+
+- name: Restart openmrs
+  service: name=openmrs state=restarted
