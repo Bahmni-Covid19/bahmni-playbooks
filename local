@@ -2,6 +2,9 @@ localhost ansible_connection=local
 
 [nagios-server]
 
+[bahmni-openmrs]
+localhost
+
 [bahmni-emr]
 localhost
 
