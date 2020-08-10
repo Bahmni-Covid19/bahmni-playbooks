@@ -1,13 +1,13 @@
-- name: copy initial screening metadata
+- name: copy concepts
   copy:
-    src: initial_screening/initial_screening_concepts.csv
-    dest: "{{ openmrs_install_dir }}/configuration/concepts/"
+    src: concepts
+    dest: "{{ openmrs_install_dir }}/configuration"
     owner: root
 
-- name: copy initial screening form
+- name: copy forms
   copy:
-    src: initial_screening/initial_screening_form.json
-    dest: "{{ openmrs_install_dir }}/configuration/bahmniforms/"
+    src: bahmniforms
+    dest: "{{ openmrs_install_dir }}/configuration"
     owner: root
 
 # TODO: refactor later. avoid database conflicts
