@@ -2,13 +2,19 @@
   copy:
     src: concepts
     dest: "{{ openmrs_install_dir }}/configuration"
-    owner: root
+    owner: bahmni
 
 - name: copy forms
   copy:
     src: bahmniforms
     dest: "{{ openmrs_install_dir }}/configuration"
-    owner: root
+    owner: bahmni
+
+- name: ensure that the intializer is present in the correct version
+  copy:
+    src: initializer-2.0.0.jar
+    dest:  "{{ openmrs_install_dir }}/modules/"
+    owner: bahmni
 
 # TODO: refactor later. avoid database conflicts
 - name: update concept sources
