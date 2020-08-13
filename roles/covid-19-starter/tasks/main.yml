@@ -12,7 +12,7 @@
 
 - name: ensure that the intializer is present in the correct version
   copy:
-    src: initializer-2.0.0.jar
+    src: initializer-2.0.0.omod
     dest:  "{{ openmrs_install_dir }}/modules/"
     owner: bahmni
 
