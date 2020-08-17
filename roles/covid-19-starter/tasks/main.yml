@@ -10,6 +10,13 @@
     dest: "{{ openmrs_install_dir }}/configuration"
     owner: bahmni
 
+- name: copy form translations
+  copy:
+    src: translations
+    dest: "/opt/bahmni-web/etc/bahmni_config/openmrs/apps/forms"
+    owner: bahmni
+    mode: a+rwx
+
 - name: ensure that the intializer is present in the correct version
   copy:
     src: initializer-2.0.0.omod
