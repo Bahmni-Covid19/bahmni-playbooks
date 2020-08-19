@@ -1,0 +1,11 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Answers,Members
+,,,Susceptible,Susceptible,,Misc,N/A,,
+,,,Infectious,Infectious,,Misc,N/A,,
+,,,Exposed,Exposed,,Misc,N/A,,
+,,,Recovered,Recovered,,Misc,N/A,,
+,,,Negative,Negative,,Misc,N/A,,
+,,,COVID-19 Program WorkFlows,COVID-19 Program WorkFlows,,Misc,Coded,Susceptible; Infectious; Exposed; Recovered; Negative,
+,,,COVID-19 Program,COVID-19 Program,,Misc,N/A,,
+,,,Cured,Cured,,Misc,N/A,,
+,,,Deceased,Deceased,,Misc,N/A,,
+,,,COVID-19 Outcomes,COVID-19 Outcomes,,Misc,Coded,Cured; Deceased,

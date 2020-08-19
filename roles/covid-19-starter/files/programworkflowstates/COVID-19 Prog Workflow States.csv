@@ -1,0 +1,6 @@
+Uuid,Void/Retire,Workflow,State concept,Initial,Terminal,_order:1000
+,,COVID-19 Program WorkFlows,Susceptible,,,
+,,COVID-19 Program WorkFlows,Infectious,,,
+,,COVID-19 Program WorkFlows,Recovered,,,
+,,COVID-19 Program WorkFlows,Negative,,,
+,,COVID-19 Program WorkFlows,Exposed,,,
