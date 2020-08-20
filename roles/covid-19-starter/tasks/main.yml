@@ -10,10 +10,21 @@
     dest: "{{ openmrs_install_dir }}/configuration"
     owner: bahmni
 
+- name: create translations directory
+  file:
+    path: "{{ bahmni_forms_translations_dir }}"
+    state: directory
+
 - name: copy form translations
-  copy:
-    src: translations
-    dest: "/opt/bahmni-web/etc/bahmni_config/openmrs/apps/forms"
+  vars:
+    bahmni_form_dir: "{{ openmrs_install_dir }}/configuration/bahmniforms"
+  script:
+    cmd: "publish_translations.py {{ bahmni_form_dir }} {{ bahmni_forms_translations_dir }}"
+
+- name: allow all users to modify translations
+  file:
+    path: "{{ bahmni_forms_translations_dir }}"
+    recurse: yes
     owner: bahmni
     mode: a+rwx
 
