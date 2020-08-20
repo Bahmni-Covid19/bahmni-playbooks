@@ -1,0 +1,3 @@
+# TODO: extract this from https://192.168.33.10/openmrs/admin/maintenance/globalProps.form
+# bahmni.formTranslations.directory
+bahmni_forms_translations_dir: "/var/www/bahmni_config/openmrs/apps/forms/translations"
