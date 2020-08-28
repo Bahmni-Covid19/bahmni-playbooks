@@ -1,11 +1,11 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Answers
 5006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:84387000; AMPATH:5006; CIEL:5006,"COVID-19-Starter, Asymptomatic",Asymptomatic,General descriptive term.  ,Misc,N/A,
 165621AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT: 1240581000000104; SNOMED UK:1240581000000104; CIEL: 165621,"COVID-19-Starter, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected",Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected,,Finding,N/A,
-,,,"COVID-19-Starter, Patient orientation completed",Patient orientation completed,,Misc,N/A,
-,,,"COVID-19-Starter, Self monitoring kit procured by patient",Self monitoring kit procured by patient,,Misc,N/A,
+67ec7f7f-5be7-42eb-92ea-7e1cabfdf169,,,"COVID-19-Starter, Patient orientation completed",Patient orientation completed,,Misc,N/A,
+bb5ddd4f-fd97-4387-ad12-fd32f8c2433f,,,"COVID-19-Starter, Self monitoring kit procured by patient",Self monitoring kit procured by patient,,Misc,N/A,
 61dd2986-37a4-4978-81e1-ad0aff5657d3,,,"COVID-19-Starter, Home isolation observations",Home isolation observations,,Question,Coded,"COVID-19-Starter, Asymptomatic; COVID-19-Starter, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected; COVID-19-Starter, Patient orientation completed; COVID-19-Starter, Self monitoring kit procured by patient"
 6f68d3b0-8cd6-49a8-8ae1-a027f91c8db4,,,61dd2986-37a4-4978-81e1-ad0aff5657d3,Number of days in isolation,,Question,Numeric,
-,,,"COVID-19-Starter, Home Isolation Start Date",Home Isolation Start Date,Date/time patient was isolated.,Question,DateTime,
+4f710332-89ff-46c5-9936-c0096b1cce38,,,"COVID-19-Starter, Home Isolation Start Date",Home Isolation Start Date,Date/time patient was isolated.,Question,DateTime,
 162079AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL: 162079,"COVID-19-Starter, Date of test result",Date of test result,"Date/time that a test result was obtained. This is not when the test was ordered, or when the result was given to the patient.",Misc,DateTime,
 913610b9-9ad1-4af6-9205-b77f5208c745,,,"COVID-19-Starter, Follow up date",Follow up date,,Question,DateTime,
 a55f7738-a1f5-4e5d-835d-c6c475b4f0c6,,,"COVID-19-Starter, House suitable for home isolation",House suitable for home isolation,,Question,Boolean,
