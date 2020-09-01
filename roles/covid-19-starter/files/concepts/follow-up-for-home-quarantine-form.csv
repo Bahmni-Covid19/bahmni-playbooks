@@ -6,7 +6,7 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Descript
 67ec7f7f-5be7-42eb-92ea-7e1cabfdf169,,,"COVID-19-Starter, Patient orientation completed",Patient orientation completed,,Misc,N/A,,
 bb5ddd4f-fd97-4387-ad12-fd32f8c2433f,,,"COVID-19-Starter, Self monitoring kit procured by patient",Self monitoring kit procured by patient,,Misc,N/A,,
 61dd2986-37a4-4978-81e1-ad0aff5657d3,,,"COVID-19-Starter, Home isolation observations",Home isolation observations,,Question,Coded,"COVID-19-Starter, Asymptomatic; COVID-19-Starter, Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) detected; COVID-19-Starter, Patient orientation completed; COVID-19-Starter, Self monitoring kit procured by patient",
-318a27ee-2446-49d0-9325-eed9538a82eb,,,"COVID-19-Starter, New symptoms since last check",New symptoms since last check,,Question,Boolean,,
+318a27ee-2446-49d0-9325-eed9538a82eb,,,"COVID-19-Starter, New symptoms since last check",New symptoms since last check,,Question,Coded,"COVID-19-Starter, No; COVID-19-Starter, Yes; COVID-19-Starter, Unknown",
 1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:373067005; PIH:1066; PIH Malawi:1066; AMPATH:1066; CIEL:1066,"COVID-19-Starter, No",No,Generic answer to a question.,Misc ,N/A,,
 1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:373066001; PIH:1065; PIH Malawi:1065; AMPATH:1065; CIEL:1065,"COVID-19-Starter, Yes",Yes,Generic answer to a question.,Misc ,N/A,,
 1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:261665006; PIH:1067; AMPATH:1067; org.openmrs.module.mdrtb:UNKNOWN; CIEL:1067,"COVID-19-Starter, Unknown",Unknown,Generic answer to a question.,Misc ,N/A,,
