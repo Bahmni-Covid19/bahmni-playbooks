@@ -2,14 +2,14 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Descript
 67ec7f7f-5be7-42eb-92ea-7e1cabfdf169,,,"COVID-19-Starter, Patient orientation completed",Patient orientation completed,,Misc,N/A,,
 bb5ddd4f-fd97-4387-ad12-fd32f8c2433f,,,"COVID-19-Starter, Self monitoring kit procured by patient",Self monitoring kit procured by patient,,Misc,N/A,,
 61dd2986-37a4-4978-81e1-ad0aff5657d3,,,"COVID-19-Starter, Home isolation observations",Home isolation observations,,Question,Coded,"COVID-19-Starter, Patient orientation completed; COVID-19-Starter, Self monitoring kit procured by patient",
-318a27ee-2446-49d0-9325-eed9538a82eb,,,"COVID-19-Starter, New symptoms since last check",New symptoms since last check,,Question,Coded,"No; Yes; Unknown",
+318a27ee-2446-49d0-9325-eed9538a82eb,,,"COVID-19-Starter, New symptoms since last check",New symptoms since last check,,Question,Coded,No; Yes; Unknown,
 bff2e788-02d8-45c4-afcf-c4e6a3d0ca5c,,,"COVID-19-Starter, Other new symptoms",Other,,Finding,N/A,,
-b4a9dac7-9b65-427e-9166-875c26eb7bc2,,,"COVID-19-Starter, COVID-19, new symptoms since last check","COVID-19, new symptoms",,Question,Coded,Fever; Cough; Sputum finding; Shortness of breath; Sore throat; Rhinorrhea; Headache; Chest pain; Myalgia; Malaise and fatigue; Nausea and Vomiting; Diarrhea; Loss of taste; Loss of sense of smell; Confusion; Other new symptoms,
+b4a9dac7-9b65-427e-9166-875c26eb7bc2,,,"COVID-19-Starter, COVID-19, new symptoms since last check","COVID-19, new symptoms",,Question,Coded,"Fever; Cough; Sputum finding; Shortness of breath; Sore throat; Rhinorrhea; Headache; Chest pain; Myalgia; Malaise and fatigue; Nausea and Vomiting; Diarrhea; Loss of taste; Loss of sense of smell; Confusion; COVID-19-Starter, Other new symptoms;",,
 c648273a-1eb2-4f48-bd8f-666ce56d28e8,,,"COVID-19-Starter, Vitals",Vitals,,ConvSet,N/A,,"Temperature (C); Pulse; COVID-19-Starter, Systolic blood pressure; Diastolic blood pressure; Arterial blood oxygen saturation (pulse oximeter); Serum glucose; Pain level (coded)"
 f0e6ad55-7c6c-4e21-b00d-dd6230cb526f,,,"COVID-19-Starter, First line medication",First line medication,,Question,Coded,HYDROXYCHLOROQUINE        ,
 c30f4780-b681-4c29-a31e-f8099abcad78,,,"COVID-19-Starter, Antibiotics",Antibiotics,,Question,Coded,CEFTRIAXONE; AMOXICILLIN; DOXYCYCLINE        ,
 b0702e83-65bd-4bbd-9080-67b1e09634b2,,,"COVID-19-Starter, Vitamin C",Vitamin C,,Drug,N/A,,
-a21f5fd9-865c-40fe-8470-0177953ae380,,,"COVID-19-Starter, Other medicines",Other medicines,,Question,Coded,"COVID-19-Starter, Vitamin C"; ZINC,
+a21f5fd9-865c-40fe-8470-0177953ae380,,,"COVID-19-Starter, Other medicines",Other medicines,,Question,Coded,"COVID-19-Starter, Vitamin C; ZINC",
 eaf6612b-8b85-4ec7-bce6-7479caa840a5,,,"COVID-19-Starter, Additional medications",Additional medications,,Question,Text,,
 564ab47f-6bb0-4010-93f3-5e95007a3581,,,"COVID-19-Starter, Medications and treatments provided",Medications and treatments provided,,ConvSet,N/A,,"COVID-19-Starter, First line medication; COVID-19-Starter, Antibiotics; COVID-19-Starter, Other medicines; COVID-19-Starter, Additional medications"
 d6dc35e2-ebca-4f11-af5f-44a6d69c8098,,,"COVID-19-Starter, Comments and notes",Comments and notes,,Question,Text,,

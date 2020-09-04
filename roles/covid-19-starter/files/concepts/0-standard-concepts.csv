@@ -71,7 +71,6 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Descript
 156753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:370388006; CIEL:156753; IMO ProblemIT:802369,immunocompromised state,immunocompromised state,,Diagnosis,N/A,,
 165901AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,CIEL:165901,Self-quarantine,Self-quarantine,,Procedure,N/A,,
 5485AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED CT:394656005; PIH:1429; AMPATH:5485; CIEL:5485,INPATIENT CARE OR HOSPITALIZATION,Inpatent care or hospitalization,,Misc Order,N/A,,
-,,,,,,,,,
 165656AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED NP:417662000; CIEL:165656,History of recent travel in past 14 days,History of recent travel in past 14 days,,Finding,Coded,No; Yes; Unknown;,
 165645AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED NP:161085007; LOINC:94653-3; CIEL:165645,City visited (text) ,Cities visited,,Question,Text,,
 165833AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,SNOMED NP:308467007; CIEL:165833,Visited health facility in past two weeks,Visited healthcare facility(ies) in past 2 weeks,,Finding,Coded,No; Yes; Unknown;,
