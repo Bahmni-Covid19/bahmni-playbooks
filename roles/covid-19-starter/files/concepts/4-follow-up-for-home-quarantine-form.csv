@@ -5,7 +5,7 @@ bb5ddd4f-fd97-4387-ad12-fd32f8c2433f,,,"COVID-19-Starter, Self monitoring kit pr
 318a27ee-2446-49d0-9325-eed9538a82eb,,,"COVID-19-Starter, New symptoms since last check",New symptoms since last check,,Question,Coded,No; Yes; Unknown,
 bff2e788-02d8-45c4-afcf-c4e6a3d0ca5c,,,"COVID-19-Starter, Other new symptoms",Other,,Finding,N/A,,
 b4a9dac7-9b65-427e-9166-875c26eb7bc2,,,"COVID-19-Starter, COVID-19, new symptoms since last check","COVID-19, new symptoms",,Question,Coded,"Fever; Cough; Sputum finding; Shortness of breath; Sore throat; Rhinorrhea; Headache; Chest pain; Myalgia; Malaise and fatigue; Nausea and Vomiting; Diarrhea; Loss of taste; Loss of sense of smell; Confusion; COVID-19-Starter, Other new symptoms;",,
-c648273a-1eb2-4f48-bd8f-666ce56d28e8,,,"COVID-19-Starter, Vitals",Vitals,,ConvSet,N/A,,"Temperature (C); Pulse; COVID-19-Starter, Systolic blood pressure; Diastolic blood pressure; Arterial blood oxygen saturation (pulse oximeter); Serum glucose; Pain level (coded)"
+c648273a-1eb2-4f48-bd8f-666ce56d28e8,,,"COVID-19-Starter, Vitals",Vitals,,ConvSet,N/A,,"Temperature (°C); Pulse; Systolic blood pressure; Diastolic blood pressure; Arterial blood oxygen saturation (pulse oximeter); Serum glucose; Pain level (coded)"
 f0e6ad55-7c6c-4e21-b00d-dd6230cb526f,,,"COVID-19-Starter, First line medication",First line medication,,Question,Coded,HYDROXYCHLOROQUINE        ,
 c30f4780-b681-4c29-a31e-f8099abcad78,,,"COVID-19-Starter, Antibiotics",Antibiotics,,Question,Coded,CEFTRIAXONE; AMOXICILLIN; DOXYCYCLINE        ,
 b0702e83-65bd-4bbd-9080-67b1e09634b2,,,"COVID-19-Starter, Vitamin C",Vitamin C,,Drug,N/A,,
